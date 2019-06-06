@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Từ điển</title>
+</head>
+<body>
+		<script>
+			var value = prompt(' Nhap tu can dich');
+			var tienganh = ["Good morning","How are you"];
+			var tiengviet = ["Chào buổi sáng","Bạn khỏe không"];
+			for(var i=0; i<tienganh.length;i++){
+				if(value==tienganh[i]){
+					document.write(tiengviet[i]);
+					System.exit(0);
+				}
+			}
+			document.write(' Khong tim thay');
+		</script>
+</body>
+</html>
